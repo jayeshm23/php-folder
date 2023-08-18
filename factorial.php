@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$number = 5; // Change this to the desired number
+$factorial = 1;
+
+for ($i = 1; $i <= $number; $i++) {
+    $factorial *= $i;
+}
+
+echo "Factorial of $number is $factorial";
+?>
+
+</body>
+</html>
